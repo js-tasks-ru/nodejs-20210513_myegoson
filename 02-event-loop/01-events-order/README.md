@@ -15,7 +15,7 @@ Michael
 
 Код для запуска находится в файле `index.js`:
 ```js
-const intervalId = setInterval(() => {
+const intervalId = setInterval(() => {  // макро 1
   console.log('James');
 }, 10);
 
