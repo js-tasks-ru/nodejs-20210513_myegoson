@@ -30,6 +30,13 @@ const productSchema = new mongoose.Schema({
 
   images: [String],
 
+}, {
+  toObject: {
+    virtuals: true,
+  },
+  toJSON: {
+    virtuals: true,
+  },
 });
 
 module.exports = connection.model('Product', productSchema);
