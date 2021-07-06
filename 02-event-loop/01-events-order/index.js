@@ -6,7 +6,7 @@ setTimeout(() => {
   const promise = new Promise((resolve) => {
     console.log('Richard');
     resolve('Robert');
-  });
+  }); 
 
   promise
       .then((value) => {
